@@ -5,6 +5,16 @@ First, install the following:
 - [NodeJS](https://nodejs.org/en/download/) (v4.x.x recommended)
 - [MongoDB](https://www.mongodb.com/download-center#production)
 
+To ensure you have v4.x.x of NodeJS:
+
+Use [nvm](https://github.com/creationix/nvm) to install node version 4 with long term support:
+
+```
+nvm install 4 --lts
+nvm use 4 // use version 4
+nvm ls // verify that node is set to version 4
+```
+
 To clone the repository, first install (if necessary):
 - [Git](https://git-scm.com/downloads)
 
